@@ -4,13 +4,8 @@ import { StateService } from './services/state-service';
 
 @Component({
   selector: 'app-root',
-  template: `
-    <div>
-      <h1>Estado Atual:</h1>
-      <p>Nome: {{ state$ | async | json }}</p>
-      <button (click)="changeName()">Trocar Nome</button>
-    </div>
-  `
+  templateUrl: 'app.component.html',
+  styleUrl: 'app.component.css'
 })
 export class AppComponent implements OnInit {
   state$!: Observable<any>;
