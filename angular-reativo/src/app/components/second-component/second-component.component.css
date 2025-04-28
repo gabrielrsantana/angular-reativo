@@ -1,9 +1,12 @@
 .container{
   position: absolute;
-  top: 100px;
-  left: 150px;
-  border: red 3px solid;
-  width: 400px;
-  height: 300px;
+  top: 55px;
+  left: 180px;
+  margin: 40px auto;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  background-color: #f7f7f7;
+  font-family: Arial, sans-serif;
 
 }

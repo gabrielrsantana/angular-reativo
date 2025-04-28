@@ -21,11 +21,8 @@ O formato é baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.
 - Componente centralizado com layout responsivo leve.
 
 ---
+## [0.1.0] - 2025-04-27
+### Adicionado
+-- component 2 e background
 
-<!-- Histórico de versões futuras aqui -->
-<!-- 
-## [0.1.1] - YYYY-MM-DD
-### Corrigido
-- ...
--->
 

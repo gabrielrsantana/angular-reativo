@@ -1,6 +1,7 @@
 <div class="estado-container">
-  <h1>Estado Atual:</h1>
-  <p>Nome: {{ state$ | async | json }}</p>
-  <button (click)="changeName()">Trocar Nome</button>
+  <h1>Component Principal</h1>
+  <p>estado: {{ state$ | async | json }}</p>
+
+  <button (click)="changeName()">random number</button>
 </div>
 <app-second-component></app-second-component>
